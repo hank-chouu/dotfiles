@@ -82,6 +82,7 @@ plugins=(
 	git-commit
 	sudo
 	zsh-autosuggestions
+	zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -115,9 +116,6 @@ source ~/src/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-eval "$(zoxide init zsh)"
-# Created by `pipx` on 2023-12-13 09:23:47
 export PATH="$PATH:/home/hank/.local/bin"
+eval "$(zoxide init zsh)"
 eval $(thefuck --alias)
-
-source ~/src/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

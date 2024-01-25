@@ -110,12 +110,12 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias e="exit"
-alias u="sudo pacman -Syu"
 alias orphans="pacman -Qtdq | sudo pacman -Rns -"
+alias gedit="gnome-text-editor"
 source ~/source/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 export PATH="$PATH:/home/hank/.local/bin"
-export PATH=$PATH:~/bin
+export PATH="$PATH:/home/hank/bin"
 eval "$(zoxide init zsh)"

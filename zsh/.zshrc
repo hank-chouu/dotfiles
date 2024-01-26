@@ -112,6 +112,7 @@ source $ZSH/oh-my-zsh.sh
 alias e="exit"
 alias orphans="pacman -Qtdq | sudo pacman -Rns -"
 alias gedit="gnome-text-editor"
+alias ss="kitty +kitten ssh"
 source ~/source/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.

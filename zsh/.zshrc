@@ -113,6 +113,7 @@ alias e="exit"
 alias gedit="gnome-text-editor"
 alias ss="kitty +kitten ssh"
 alias icat="kitty +kitten icat"
+alias pandoc="docker run --rm --volume "`pwd`:/data" --user `id -u`:`id -g` pandoc/latex"
 source ~/source/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.

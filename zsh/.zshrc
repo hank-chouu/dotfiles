@@ -114,9 +114,6 @@ alias tedit="gnome-text-editor"
 alias ss="kitty +kitten ssh"
 alias icat="kitty +kitten icat"
 alias pandoc="docker run --rm --volume "`pwd`:/data" --user `id -u`:`id -g` pandoc/latex"
-alias power-saver="powerprofilesctl set power-saver"
-alias balanced="powerprofilesctl set balanced"
-alias performance="powerprofilesctl set performance"
 source ~/source/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
